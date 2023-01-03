@@ -1,0 +1,12 @@
+[general]
+library_name = "liburing"
+output_file_path = "../src/Liburing.jl"
+print_using_CEnum = false
+module_name = "Liburing"
+jll_pkg_name = "liburing_jll"
+export_symbol_prefixes = ["io_uring_"]
+
+[codegen]
+use_julia_bool = true
+use_ccall_macro = true
+opaque_func_arg_as_PtrCvoid = true
