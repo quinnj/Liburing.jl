@@ -1,4 +1,4 @@
-module Example
+module Liburing
 export hello, domath
 
 """
